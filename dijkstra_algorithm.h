@@ -22,7 +22,7 @@ class Graph
 private:
 	Map<uint16_t, uint64_t>* adjList; //adjacency list that stores vertices number and edge weight
 	List<std::string> namesList; //represents link between city name and vertices number
-	priority_queue<uint16_t> markList; //stores vertices number and it's mark
+	priority_queue<uint16_t> markList; //stores vertices number and its mark
 	size_t size;
 
 	//creates from start point to the destination point using marked graph
